@@ -1,0 +1,24 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-top: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  
+  width: 70px;
+  margin-top: 56px;
+  background-color: lightpink;
+  text-align: center;
+}
+
+.home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
+  height: 24px;
+}
+
+p {
+  font-size: 10px;
+}
