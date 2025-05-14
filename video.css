@@ -41,9 +41,16 @@
 
 .video-title {
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
+  color: black;
   margin-bottom: 10px;
+  line-height: 20px;
   cursor: pointer;
+}
+
+.video-title-link {
+  text-decoration: none;
+  color: black;
 }
 
 .video-author {
@@ -51,6 +58,11 @@
   color: rgb(95, 92, 87);
   margin-bottom: 5px;
   cursor: pointer;
+}
+
+.video-author-link {
+  color: rgb(95, 92, 87);
+  text-decoration: none;
 }
 
 .video-stats {
