@@ -1,16 +1,21 @@
 .sidebar-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 36px;
   position: fixed;
   left: 0;
-  top: 0;
+  top: 56px;
   bottom: 0;
   width: 70px;
-  margin-top: 56px;
   z-index: 99;
   text-align: center;
+}
+
+.sidebar-card-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .home-icon, .explore-icon, .subscriptions-icon, .originals-icon, .youtube-music-icon, .library-icon {
@@ -18,6 +23,9 @@
   width: 24px;
 }
 
+.sidebar-card-container:hover {
+  background-color: rgb(233, 233, 233);
+}
 p {
   font-size: 10px;
 }
