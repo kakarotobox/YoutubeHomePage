@@ -1,18 +1,19 @@
 .super-container {
   display: flex;
   flex-wrap: wrap;
-  
   gap: 17px;
   margin-top: 56px;
   margin-left: 70px;
-  border: 1px dotted red;
   min-width: 0;
+  padding: 25px;
+  border-top: 1px solid rgb(211, 211, 211);
+  background-color: rgba(211, 211, 211, 0.1);
 }
 
 .video-card {
   width: 296px;
   height: 278px; 
-  border: 1px dotted green;
+ 
   min-width: 0;
 }
 

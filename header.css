@@ -43,11 +43,11 @@
 
 .search-bar {
   height: 40px;
-  width: 360px;
+  width: 385px;
   min-width: 0;
-  padding: 12px 20px;
-  border: 1px solid rgb(197, 197, 197);;
-  box-shadow: rgb(163, 163, 163) 0px 1px 2px 0px inset;
+  padding: 12px 15px;
+  border: 1px solid rgb(197, 197, 197);
+  border-right: none;
   font-family: Roboto, Arial;
   font-size: 17px;
   color: rgb(99, 94, 88);
@@ -57,9 +57,9 @@
   flex-shrink: 0;
   margin: 0;
   padding: 0;
-  border: none;
+  border: 1px solid rgb(197, 197, 197);
   height: 40px;
-  width: 62px;
+  width: 64px;
   margin-right: 8px;
   margin-left: -1;
   background-color: rgb(239, 239, 239);
