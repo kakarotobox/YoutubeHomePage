@@ -1,12 +1,9 @@
 .header {
   display: flex;
   justify-content: space-between;
-  
   align-items: center;
   padding: 0 25px;
   height: 56px;
- 
-  
   position: fixed;
   top: 0;
   left: 0;
@@ -174,8 +171,9 @@
 
 .youtube-apps-icon-container .tooltip {
   position: absolute;
-  bottom: -58px;
-  right: -20px;
+  bottom: -44px;
+  right: -50px;
+  left: -20px;
   background-color: grey;
   color: white;
   padding: 4px 8px;
